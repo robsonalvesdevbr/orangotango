@@ -30,6 +30,8 @@ Orangotango's microservices, implemented in .NET, are designed using a Hexagonal
 
 The system emphasizes responsibility separation, adhering to SOLID, Clean Code, and Domain-Driven Design (DDD) principles. The microservices are organized into distinct layers:
 
+![Layers](https://github.com/wesleycosta/orangotango/raw/main/images/diagrams/layers.jpg)
+
 1. **Presentation Layer**: Includes a Web API with controllers and input models (DTOs) defining endpoint contracts.
 2. **Application Layer**: Consists of Command Handlers, Mappers, Results, and Services.
 3. **Domain Layer**: Comprises Entities, Commands, Validations, and Repository Abstractions.
