@@ -47,6 +47,17 @@ See below an example of implementation using the aforementioned layers in orango
 - Service Layer, Repository Pattern, Notification Pattern, and Unit Of Work.
 - Resilience best practices including Retry Pattern, Circuit Breaker, and Exponential Backoff.
 
+
+### CQRS
+
+In the Orangotango project, CQRS is implemented by separating write commands and read queries:
+
+- **Write Commands (Upsert Command):** Insert or update operations start in the presentation layer (Web API), move through the application layer to apply business logic in the domain layer, and are then persisted in the database by the infrastructure layer.
+
+- **Read Queries (Query Command):** Read operations begin in the presentation layer and interact directly with the infrastructure. The flow is bidirectional, allowing data to be returned to the presentation layer for display to the user.
+
+![CQRS](https://github.com/wesleycosta/orangotango/raw/main/images/diagrams/cqrs.jpg)
+
 Feel free to contribute to this project. For more information, refer to the individual repositories of each project.
 
 ## How to Run with Docker
