@@ -37,17 +37,6 @@ The system emphasizes responsibility separation, adhering to SOLID, Clean Code, 
 3. **Domain Layer**: Comprises Entities, Commands, Validations, and Repository Abstractions.
 4. **Infrastructure Layer**: Implements Repositories, the EF Context, and a Messaging Bus.
 
-See below an example of implementation using the aforementioned layers in orangotango-rooms:
-![DotnetLayers](https://github.com/wesleycosta/orangotango/blob/main/images/diagrams/dotnet_layers.png)
-
-### Design Patterns and Principles
-
-- Hexagonal / Event-Driven Architecture (EDA).
-- CQRS (Command Query Responsibility Segregation), DDD, SOLID, and Clean Code principles.
-- Service Layer, Repository Pattern, Notification Pattern, and Unit Of Work.
-- Resilience best practices including Retry Pattern, Circuit Breaker, and Exponential Backoff.
-
-
 ### CQRS
 
 In the Orangotango project, CQRS is implemented by separating write commands and read queries:
@@ -57,6 +46,18 @@ In the Orangotango project, CQRS is implemented by separating write commands and
 - **Read Queries (Query Command):** Read operations begin in the presentation layer and interact directly with the infrastructure. The flow is bidirectional, allowing data to be returned to the presentation layer for display to the user.
 
 ![CQRS](https://github.com/wesleycosta/orangotango/raw/main/images/diagrams/cqrs.jpg)
+
+### Layers
+
+See below an example of implementation using the aforementioned layers in orangotango-rooms:
+![DotnetLayers](https://github.com/wesleycosta/orangotango/blob/main/images/diagrams/dotnet_layers.png)
+
+### Design Patterns and Principles
+
+- Hexagonal / Event-Driven Architecture (EDA).
+- CQRS (Command Query Responsibility Segregation), DDD, SOLID, and Clean Code principles.
+- Service Layer, Repository Pattern, Notification Pattern, and Unit Of Work.
+- Resilience best practices including Retry Pattern, Circuit Breaker, and Exponential Backoff.
 
 Feel free to contribute to this project. For more information, refer to the individual repositories of each project.
 
