@@ -62,7 +62,9 @@ See below an example of implementation using the aforementioned layers in orango
 Feel free to contribute to this project. For more information, refer to the individual repositories of each project.
 
 
-## APP
+## App
+
+The frontend was developed using Angular and is based on the Modernize template (available at: [Modernize Angular Material Dashboard](https://adminmart.com/product/modernize-angular-material-dashboard/)). Below, you can find screenshots of the main screens in the system.
 
 #### Dasboard
 ![Dashboard](https://github.com/wesleycosta/orangotango/raw/main/images/app/01.png)
