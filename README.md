@@ -61,6 +61,28 @@ See below an example of implementation using the aforementioned layers in orango
 
 Feel free to contribute to this project. For more information, refer to the individual repositories of each project.
 
+
+## APP
+
+#### Dasboard
+![Dashboard](https://github.com/wesleycosta/orangotango/raw/main/images/app/01.png)
+
+#### Reservations
+![Dashboard](https://github.com/wesleycosta/orangotango/raw/main/images/app/02.png)
+
+#### Upsert Reservations
+![Dashboard](https://github.com/wesleycosta/orangotango/raw/main/images/app/03.png)
+
+#### Rooms
+![Dashboard](https://github.com/wesleycosta/orangotango/raw/main/images/app/04.png)
+
+#### Upsert Rooms
+![Dashboard](https://github.com/wesleycosta/orangotango/raw/main/images/app/05.png)
+
+#### Modal Deletion Confirmation
+![Dashboard](https://github.com/wesleycosta/orangotango/raw/main/images/app/06.png)
+
+
 ## How to Run with Docker
 
 To run the project using Docker, you can use the `docker-compose.yml` file, which sets up all the necessary services for Orangotango. Follow the steps below:
