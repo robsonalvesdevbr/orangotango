@@ -26,9 +26,9 @@ Below is a diagram of the application architecture, illustrating how the microse
 
 [![Blueprint](https://github.com/wesleycosta/orangotango/blob/main/images/diagrams/blueprint.drawio.png)](https://github.com/wesleycosta/orangotango/blob/main/images/diagrams/blueprint.drawio.png)
 
-Orangotango's microservices, implemented in .NET, are designed using a Hexagonal / Event-Driven Architecture (EDA). 
+Orangotango's microservices, implemented in .NET, are designed using a Hexagonal / Event-Driven Architecture (EDA). The system emphasizes responsibility separation, adhering to SOLID, Clean Code, and Domain-Driven Design (DDD) principles. 
 
-The system emphasizes responsibility separation, adhering to SOLID, Clean Code, and Domain-Driven Design (DDD) principles. The microservices are organized into distinct layers:
+The microservices are organized into distinct layers:
 
 ![Layers](https://github.com/wesleycosta/orangotango/raw/main/images/diagrams/layers.jpg)
 
@@ -64,7 +64,9 @@ Feel free to contribute to this project. For more information, refer to the indi
 
 ## App
 
-The frontend was developed using Angular and is based on the Modernize template (available at: [Modernize Angular Material Dashboard](https://adminmart.com/product/modernize-angular-material-dashboard/)). Below, you can find screenshots of the main screens in the system.
+The frontend was developed using Angular and is based on the Modernize template (available at: [Modernize Angular Material Dashboard](https://adminmart.com/product/modernize-angular-material-dashboard/)).
+
+Below, you can find screenshots of the main screens in the system.
 
 #### Dasboard
 ![Dashboard](https://github.com/wesleycosta/orangotango/raw/main/images/app/01.png)
