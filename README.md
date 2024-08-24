@@ -59,8 +59,11 @@ See below an example of implementation using the aforementioned layers in orango
 - Service Layer, Repository Pattern, Notification Pattern, and Unit Of Work.
 - Resilience best practices including Retry Pattern, Circuit Breaker, and Exponential Backoff.
 
-Feel free to contribute to this project. For more information, refer to the individual repositories of each project.
 
+### Swagger
+![swagger](https://github.com/wesleycosta/orangotango/blob/main/images/backend/swagger.png)
+
+Feel free to contribute to this project. For more information, refer to the individual repositories of each project.
 
 ## App
 
@@ -137,6 +140,20 @@ To run the project using Docker, you can use the `docker-compose.yml` file, whic
    ```bash
    docker-compose down
    ```
+
+### Observability
+
+### Summary
+![Summary](https://github.com/wesleycosta/orangotango/blob/main/images/apm/00_summary.png)
+
+### Transactions
+![Transactions](https://github.com/wesleycosta/orangotango/blob/main/images/apm/01_transactions.png)
+
+### Databases
+![Databases](https://github.com/wesleycosta/orangotango/blob/main/images/apm/02_databases.png)
+
+### Errors
+![Errors](https://github.com/wesleycosta/orangotango/blob/main/images/apm/03_erros.png)
 
 ## Logs and Tracing
 
