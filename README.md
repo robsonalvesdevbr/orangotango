@@ -13,6 +13,7 @@ This project was developed as part of my postgraduate studies in Software Archit
 - [Observability](#observability)
 - [Logs and Tracing](#logs-and-tracing)
 - [How to Contribute](#how-to-contribute)
+- [Next Steps](#next-steps)
 - [License](#license)
 
 
@@ -206,6 +207,12 @@ This detailed logging and tracing mechanism is crucial for debugging and monitor
 3. Commit your changes (`git commit -m 'Add new feature'`)
 4. Push to the branch (`git push origin feature/new-feature`)
 5. Open a Pull Request
+
+## Next Steps
+- **Complete Microservices Development and Unit Tests**: Finalize the development of current microservices and create unit tests.
+- **Kubernetes Deployment**: Deploy microservices on Kubernetes for high availability, scalability, and ease of management.
+- **CI/CD Enhancement**: Expand CI/CD pipelines with GitHub Actions to include additional deployment steps and code quality monitoring.
+- **Improve Application Resilience**: Implement Circuit Breaker and Retry Pattern to enhance robustness and handle temporary failures effectively.
 
 ## License
 
