@@ -2,6 +2,20 @@
 
 **Orangotango** is a hotel reservation system that utilizes a modern and scalable microservices architecture.
 
+This project was developed as part of my postgraduate studies in Software Architecture. Click [here](https://github.com/wesleycosta/orangotango/blob/main/docs/projeto_aplicado_xp.pdf) to view the complete project documentation.
+
+## Summary
+
+- [Projects](#projects)
+- [Architecture](#architecture)
+- [Application Overview](#application-overview)
+- [How to Run with Docker](#how-to-run-with-docker)
+- [Observability](#observability)
+- [Logs and Tracing](#logs-and-tracing)
+- [How to Contribute](#how-to-contribute)
+- [License](#license)
+
+
 ## Projects
 
 Orangotango is composed of six main projects, each playing a specific role in the system's architecture:
@@ -65,7 +79,7 @@ See below an example of implementation using the aforementioned layers in orango
 
 Feel free to contribute to this project. For more information, refer to the individual repositories of each project.
 
-## App
+## Application Overview
 
 The frontend was developed using Angular and is based on the Modernize template (available at: [Modernize Angular Material Dashboard](https://adminmart.com/product/modernize-angular-material-dashboard/)).
 
