@@ -2,7 +2,7 @@
 
 **Orangotango** is a hotel reservation system that utilizes a modern and scalable microservices architecture.
 
-This project was developed as part of my postgraduate studies in Software Architecture. Click [here](https://github.com/wesleycosta/orangotango/blob/main/docs/projeto_aplicado_xp.pdf) to view the complete project documentation.
+This project was developed as part of my postgraduate studies in Software Architecture. Click [here](https://www.youtube.com/watch?v=LYacciOXmLs) to watch the pitch presentation of the project.
 
 ## Summary
 
