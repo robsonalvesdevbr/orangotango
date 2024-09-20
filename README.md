@@ -142,8 +142,8 @@ To run the project using Docker, you can use the `docker-compose.yml` file, whic
 
    - **Web Application (SPA)**: [http://localhost:81](http://localhost:81)
    - **API Gateway**: [http://localhost:8080](http://localhost:8080)
-   - **Rooms Service**: [[http://localhost:8081](http://localhost:8081/api-docs)
-   - **Reservations Service**: [[http://localhost:8082](http://localhost:8082/api-docs)
+   - **Rooms Service**: [http://localhost:8081/api-docs](http://localhost:8081/api-docs)
+   - **Reservations Service**: [http://localhost:8082/api-docs](http://localhost:8082/api-docs)
    - **Elasticsearch**: [http://localhost:9200](http://localhost:9200)
    - **Kibana**: [http://localhost:5601](http://localhost:5601)
    - **RabbitMQ Management**: [http://localhost:15672](http://localhost:15672)
